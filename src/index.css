@@ -1,0 +1,145 @@
+/* Styling for the overall app container */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+div {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Heading styles */
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #333333;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+/* Styling for the search input */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 25px;
+  border: 1px solid #3c3c3c;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Styling for the note card */
+div > div {
+  background-color: #2d2d2d;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #3c3c3c;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for the note titles */
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* Styling for the note body text */
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #d1d1d1;
+}
+
+/* Styling for the buttons */
+button {
+  background-color: #333;
+  color: #f1f1f1;
+  border: none;
+  padding: 12px 24px;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Styling for form inputs */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #3c3c3c;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Styling for the form's submit button */
+form button[type="submit"] {
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: none;
+}
+
+form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Styling for the character count or additional info */
+p:last-child {
+  font-size: 14px;
+  color: #999999;
+  margin-top: 10px;
+}
+
+/* Responsive Design for mobile */
+@media (max-width: 600px) {
+  div {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 14px;
+  }
+}
